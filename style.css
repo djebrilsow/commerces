@@ -1,3 +1,7 @@
+html {
+scroll-behavior: smooth;
+}
+
 body {
 margin: 0;
 padding: 0;
@@ -14,16 +18,19 @@ li {
 list-style-type: none;
 float: right;
 padding-left: 2em;
+text-align: center;
 
 }
+
 ul {
 text-align: center;
 text-transform: capitalize;
 font-family: 'Courier New', Courier, monospace;
 overflow: hidden;
-background-color: aqua;
+background-color: rgba(26, 128, 0, 0.747);
 position: fixed;
 }
+
 .imgprincipale {
 background: url(/image\ principal.jpg) no-repeat 50% fixed;
 width: 100%;
@@ -32,6 +39,7 @@ text-align: center;
 color: greenyellow;
 padding-top: 0;
 }
+
 
 hr {
 size: 2em;
@@ -52,13 +60,30 @@ background-color: blueviolet;
 }
 
 img {
-width: 75%;
+width: 50%;
 height: 550PX;
 border-radius: 25PX;
 padding-left: 240PX;
+background-color: aqua;
+margin-left: 250px;
 }
 img:hover {
 opacity: 0.5ms;
 transition: 0.5s ease-in-out;
 transform: scale(1.05);
+}
+
+p {
+font-family: 'Times New Roman', Times, serif;
+background-color: yellow;
+}
+
+.icon {
+justify-content: space-between;
+float: right;
+margin-left: 20px;
+}
+
+a {
+text-decoration: none;
 }
