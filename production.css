@@ -1,0 +1,59 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+table {
+    text-align: center;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+.prix {
+    color: rgb(31, 253, 253);
+    background:rgb(7, 6, 1);
+}
+.ip {
+    color: rgb(68, 205, 84);
+    background:rgb(31, 13, 1);
+}
+.img {
+    background-color: gold;
+}
+.body {
+    
+    color: aqua;
+    background:rgb(31, 13, 1);
+}
+.panta {
+    color: aqua; 
+    background:rgb(31, 13, 1);
+}  
+.bp {
+    color: aqua;
+    background:rgb(31, 13, 1);
+}
+.demba {
+    
+    color: aqua;
+    background:rgb(31, 13, 1);
+}
+.sow {
+    color: aqua;
+    background:rgb(31, 13, 1);
+}
+img {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+h3 {
+    color: rgba(193, 65, 65, 0.568);
+    padding: 12px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    float: none;
+    border-style: solid;
+    
+}
+unite {
+    border-width: 50px;
+}
